@@ -159,7 +159,7 @@ header li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 35px;
+    gap: 10px;
     justify-content: center;
 }
 
