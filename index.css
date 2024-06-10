@@ -322,7 +322,7 @@ p.title{
     justify-content: center;
     align-items: center;
     background: transparent;
-    padding: 15px 42px;
+    padding: 15px 32px;
     font-weight: 600;
     font-size: 16px;
     color: #0075E2;
@@ -766,7 +766,9 @@ button.blue{
 
 
 .prof-image img{
-    width: 80%;
+    width: 100%;
+    scale: 1.1;
+    margin-top: 40px;
 }
 
 
@@ -782,8 +784,8 @@ button.blue{
 .how-container{
     display: flex;
     flex-direction: column;
-    padding: 90px 99px;
-    gap: 89px;
+    padding: 40px 20px;
+    gap: 50px;
 }
 
 
@@ -792,17 +794,18 @@ button.blue{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 52px;
+    gap: 32px;
 }
 .how-header h1{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 400;
+    text-align: center;
 }
 .how-header p {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     color: #787878;
-    width: 726px;
+    width: 100%;
     text-align: center;
 }
 
@@ -810,16 +813,20 @@ button.blue{
     display: flex;
     flex-direction: row;
     gap: 22px;
-    width: 550px;
+    width: 100%;
 }
 
 .how-desc-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
 .how-image{
+    width: 100%;
+}
+
+.how-image img{
     width: 100%;
 }
 
@@ -834,20 +841,29 @@ button.blue{
 
 .how-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 23px;
 }
 
 .how-card{
     display: flex;
-    padding: 34px 37px;
-    width: 347px;
-    flex-direction: column;
+    padding: 10px 19px;
+    width: 100%;
+    flex-direction: row;
     gap: 23px;
     background: #FFFFFF;
     border: 4px solid #EEEEEE;
     border-radius: 20px;
     overflow: hidden;
+    align-items: center;
+}
+
+.how-card h1{
+    font-size: 40px;
+}
+
+.how-card p{
+    font-size: 12px;
 }
 .act{
     border: 4px solid transparent;
@@ -860,15 +876,16 @@ button.blue{
 
 .count-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 60px 99px;
-    margin: 90px 0px;
+    padding: 50px 20px;
+    margin: 40px 0px;
     gap: 91px;
     background: linear-gradient(to right, #30DCC7, #32009D);
 }
 
 .count-container div{
-    width:417px;
+    width:100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -876,15 +893,15 @@ button.blue{
 }
 
 .count-container div h1{
-    font-size: 60px;
+    font-size: 40px;
     color: #FFFFFF;
     font-weight: 700;
 }
 
 .count-container div p{
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     text-align: center;
 }
 
@@ -892,7 +909,7 @@ button.blue{
     display: flex;
     flex-direction: column;
     gap: 43px;
-    padding: 90px 99px;
+    padding: 40px 20px;
 }
 
 .who-header{
@@ -903,27 +920,32 @@ button.blue{
 }
 
 .who-header p{
-    width: 831px;
+    width: 100%;
     text-align: center;
     color: #787878;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .who-header h1{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 400;
+    text-align: center;
 }
 
 .who-item{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
+    width: 100%;
+   
 }
 
 .who-row{
     display: flex;
     flex-direction: row;
     gap: 28px;
+    overflow-x: scroll;
+  
 }
 
 
@@ -934,6 +956,7 @@ button.blue{
     gap: 30px;
     border-radius: 9px;
     background: #F4F4F4;
+    
 }
 
 .pagination-container{
@@ -994,7 +1017,7 @@ button.blue{
     display: flex;
     flex-direction: column;
     gap: 52px;
-    padding: 80px 99px;
+    padding: 40px 0px;
 }
 
 .faq-header{
@@ -1006,13 +1029,14 @@ button.blue{
 
 
 .faq-header h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     color: #000000;
+    text-align: center;
 }
 
 .faq-header p{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 400;
     color: #0075E2;
     display: flex;
@@ -1022,7 +1046,7 @@ button.blue{
 
 
 .faq-list{
-    padding: 86px 81px;
+    padding: 40px 13px;
     background: #F4F4F4;
     border-radius: 9px;
     display: flex;
@@ -1035,7 +1059,7 @@ button.blue{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-bottom: 30px;
+    padding-bottom: 26px;
     border-bottom: 1px solid #DEDDDD;
 }
 
@@ -1048,7 +1072,7 @@ button.blue{
 
 
 .faq-head p{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
     color: #000000;
 }
@@ -1060,17 +1084,18 @@ button.blue{
     align-items: center;
     justify-content: center;
     gap: 52px;
-    padding: 90px 99px;
+    padding: 40px 20px;
 }
 .get-header h1{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 400;
+    text-align: center;
 }
 .get-header p {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     color: #787878;
-    width: 726px;
+    width: 100%;
     text-align: center;
 }
 
@@ -1078,21 +1103,24 @@ button.blue{
     display: flex;
     flex-direction: row;
     gap: 22px;
-    width: 550px;
+    width: 100%;
 }
 
 footer{
     display: flex;
     flex-direction: row;
-    padding: 90px 99px;
+    padding: 60px 20px;
     background: #000000;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 0;
 }
 
 .footer-1{
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 12px;
+    width: 40%;
 }
 
 
@@ -1102,7 +1130,7 @@ footer{
 
 .footer-1 p{
     margin-top: 70px;
-    font-size: 18px;
+    font-size: 14px;
     color: #787878;
 }
 
@@ -1110,17 +1138,19 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 28px;
+    width: 60%;
+    align-items: end;
 }
 
 .footer-2 h1{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #787878;
 }
 
 
 .footer-2 p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
 }
@@ -1130,6 +1160,8 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 60%;
+    gap: 25px;
 }
 
 
@@ -1147,19 +1179,20 @@ footer{
 }
 
 .footer-3 input{
-    height: 43px;
+    height: 58px;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.114);
     padding: 8px;
-    font-size: 14px;
-    width: 406px;
+    font-size: 16px;
+    width: 100%;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .footer-3 button{
-    height: 39px;
+    height: 58px;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     font-weight: bold;
     display: flex;
@@ -1167,7 +1200,7 @@ footer{
     justify-content: center;
     align-items: center;
     align-self: start;
-    width: 105px;
+    width: 100%;
 }
 
 .follow{
@@ -1185,7 +1218,7 @@ footer{
 
 .follow div{
     display: flex;
-    gap: 8px;
+    gap: 30px;
 }
 
 
