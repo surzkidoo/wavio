@@ -48,7 +48,7 @@ font-family: inter;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    padding: 40px 120px;
+    padding: 40px 99px;
     position: absolute;
     z-index: 4;
     justify-content: space-between;
@@ -104,7 +104,7 @@ header li{
     display: flex;
     flex-direction: column;
     gap: 63px;
-    width: 50%;
+    width: 60%;
 }
 
 .hero-desc{
@@ -181,7 +181,7 @@ header li{
 }
 
 .trans-container{
-    padding: 90px 120px;
+    padding: 90px 99px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -274,7 +274,7 @@ button.link{
     flex-direction: row;
     gap: 132px;
     width: 100%;
-    padding: 90px 120px;
+    padding: 90px 99px;
     background: #F9F9F9;
     
 }
@@ -399,7 +399,7 @@ button.white{
     display: flex;
     flex-direction: column;
     gap: 63px;
-    padding: 90px 120px;
+    padding: 90px 99px;
 }
 
 
@@ -539,7 +539,7 @@ button.blue{
     display: flex;
     flex-direction: row;
     gap: 25px;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
@@ -584,7 +584,7 @@ button.blue{
 
 .eco-container{
     display: flex;
-    padding: 0px 120px;
+    padding: 0px 99px;
     align-items: center;
     /* gap: 100px; */
 }
@@ -666,7 +666,7 @@ button.blue{
 
 .prof-container{
     display: flex;
-    padding: 0px 120px;
+    padding: 0px 99px;
     align-items: center;
     /* gap: 100px; */
     justify-content: space-around;
@@ -736,7 +736,7 @@ button.blue{
 .how-container{
     display: flex;
     flex-direction: column;
-    padding: 90px 120px;
+    padding: 90px 99px;
     gap: 89px;
 }
 
@@ -815,7 +815,7 @@ button.blue{
 .count-container{
     display: flex;
     justify-content: space-between;
-    padding: 60px 120px;
+    padding: 60px 99px;
     margin: 90px 0px;
     gap: 91px;
     background: linear-gradient(to right, #30DCC7, #32009D);
@@ -846,7 +846,7 @@ button.blue{
     display: flex;
     flex-direction: column;
     gap: 43px;
-    padding: 90px 120px;
+    padding: 90px 99px;
 }
 
 .who-header{
@@ -948,7 +948,7 @@ button.blue{
     display: flex;
     flex-direction: column;
     gap: 52px;
-    padding: 80px 120px;
+    padding: 80px 99px;
 }
 
 .faq-header{
@@ -1014,7 +1014,7 @@ button.blue{
     align-items: center;
     justify-content: center;
     gap: 52px;
-    padding: 90px 120px;
+    padding: 90px 99px;
 }
 .get-header h1{
     font-size: 70px;
@@ -1038,7 +1038,7 @@ button.blue{
 footer{
     display: flex;
     flex-direction: row;
-    padding: 90px 120px;
+    padding: 90px 99px;
     background: #000000;
     justify-content: space-between;
 }
@@ -1107,6 +1107,7 @@ footer{
     padding: 8px;
     font-size: 14px;
     width: 406px;
+    color: #FFFFFF;
 }
 
 .footer-3 button{
@@ -1133,7 +1134,6 @@ footer{
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-
 }
 
 
