@@ -59,7 +59,7 @@ header{
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    height: 100px;
+    height: 60px;
 }
 header img{
     height: 50px;
@@ -68,10 +68,25 @@ header img{
 
 header ul{
     display: flex;
-    gap: 80px;
+    gap: 20px;
     list-style: none;
     align-items: center;
-    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #FFFFFF;
+    width: 100%;
+    z-index: 20;
+    flex-direction: column;
+    justify-content: center;
+   transition: all  400ms ease-in-out;
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 20px;
 }
 
 
@@ -1074,6 +1089,11 @@ button.blue{
     padding: 40px 0px;
 }
 
+.faq-text{
+    font-size: 16px;
+}
+
+
 .faq-header{
     display: flex;
     flex-direction: column;
@@ -1081,7 +1101,7 @@ button.blue{
     align-items: center;
 }
 
-.faq-header svg{
+.faq-head svg{
     flex-shrink: 0;
 }
 
@@ -1361,8 +1381,12 @@ header ul{
     gap: 80px;
     list-style: none;
     align-items: center;
+    position: static;
+    width: initial;
+    height: inherit;
+    flex-direction: row;
+    background: none;
 }
-
 
 
 header li{

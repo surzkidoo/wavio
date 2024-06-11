@@ -17,15 +17,21 @@
                 <img src="assets/wavio-white 2.png" alt="">
 
                 <ul class="menu">
+                    <svg width="28" class="mb close" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.1668 5.83334L5.8335 22.1667M5.8335 5.83334L22.1668 22.1667" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     <li class="active">Home</li>
                     <li>Products</li>
                     <li>FAQs</li>
                     <li>About Us</li>
 
                     <button>Contact Us</button>
+
+                   
+                        
                 </ul>
 
-                <svg width="27" class="mb" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="27" class="mb open" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.92857 17.4375C0.86183 17.4375 0 18.3033 0 19.375C0 20.4467 0.86183 21.3125 1.92857 21.3125H25.0714C26.1382 21.3125 27 20.4467 27 19.375C27 18.3033 26.1382 17.4375 25.0714 17.4375H1.92857ZM1.92857 9.6875C0.86183 9.6875 0 10.5533 0 11.625C0 12.6967 0.86183 13.5625 1.92857 13.5625H25.0714C26.1382 13.5625 27 12.6967 27 11.625C27 10.5533 26.1382 9.6875 25.0714 9.6875H1.92857Z" fill="white"/>
                     </svg>
                     
@@ -512,13 +518,13 @@
                             <path d="M10.5 16.5L15 12L10.5 7.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </mask>
                             <g mask="url(#mask0_50_1152)">
-                            <path d="M0 0H24V24H0V0Z" fill="black"/>
+                            <path id="bg" d="M0 0H24V24H0V0Z" fill="black"/>
                             </g>
                             </svg>
                             
                     </div>
 
-                    <p></p>
+                    <p class="faq-text">hahhha</p>
                 </div>
 
                 <div class="faq">
@@ -676,3 +682,47 @@
 
 </body>
 </html>
+
+<script>
+    var menu = document.querySelector('header ul');
+ var closeMenu = document.querySelector('.close');
+ var openMenu = document.querySelector('.open');
+
+ openMenu.addEventListener('click', function () {
+   menu.style.left = '0%';
+
+
+   closeMenu.addEventListener('click', function () {
+     menu.style.left = '-100%';
+   })
+ })
+
+
+ var faqsc= document.querySelectorAll('.faq');
+    faqsc.forEach(faqs=>{
+        var desc = faqs.querySelector('.faq-text');
+           var faq = faqs.querySelector('.faq-head');
+           var faqSVG = faqs.querySelector('svg');
+           var faq1 = faqs.querySelector('svg #bg');
+
+        faq.addEventListener('click',()=>{
+         
+            console.log(desc)
+              if( desc.style.display == 'none'){
+            faqSVG.style.transform='rotate(270deg)';
+            faq1.style.fill='black';
+           
+           }else{
+            faqSVG.style.transform='rotate(0deg)';
+            faq1.style.fill='#D0D0D0';
+           }
+             
+           desc.style.display == 'none'?  desc.style.display='block' :   desc.style.display = 'none'
+
+        
+
+        })
+    
+    })
+
+</script>
