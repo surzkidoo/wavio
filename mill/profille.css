@@ -11,6 +11,8 @@ font-family: inter;
     display: flex;
     flex-direction: column;
     gap: 81px;
+    max-width:576px;
+    margin: auto;
 }
 .bio{
     padding: 15px;
