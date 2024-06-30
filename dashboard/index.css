@@ -853,7 +853,11 @@ body{
     font-weight: 500;
     color: #000000;
 }
-
+.label-model{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
 .avatar-con{
     display: flex;
     flex-direction: column;
@@ -1283,9 +1287,9 @@ border-radius: 4px;
 }
 
 
-.input-box-3 input,select{
+.input-box-3 input,select,textarea{
     border-radius: 8px;
-    height: 45px;
+    min-height: 45px;
     background: #F4F4F4;
     font-size: 14px;
     font-weight: 500;
@@ -1394,6 +1398,7 @@ border-radius: 4px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 34px;
 }
 
 
@@ -1764,4 +1769,77 @@ border-radius: 4px;
     border-radius: 12px;
     font-size: 16px;
     font-weight: 600;
+}
+
+
+.model-sm{
+    width: 700px;
+    background: #ffffff;
+    padding: 91px 120px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+   gap: 25px !important;
+}
+
+
+.head-sm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.head-sm p{
+    font-size: 25px;
+    font-family: 400;
+    color: #000;
+}
+
+
+.head-sm button{
+    height: 32px;
+    border-radius: 4px;
+    background: #DFDFDF;
+    color: #000;
+    padding: 7px 24px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.con-sum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-key{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.con-value{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.con-value-blue{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0075E2;
+}
+
+
+.model-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.model-form .btn-option{
+    margin-top: 30px;
 }
